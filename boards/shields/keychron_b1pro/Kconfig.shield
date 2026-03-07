@@ -1,0 +1,2 @@
+config SHIELD_KEYCHRON_B1PRO
+    def_bool $(shields_list_contains,keychron_b1pro)

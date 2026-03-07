@@ -10,5 +10,9 @@ manifest:
     - name: zmk
       remote: zmkfirmware
       import: app/west.yml
+    - name: keychron_zmk
+      url: https://github.com/Keychron/zmk.git
+      revision: main
+      path: modules/keychron_zmk
   self:
     path: config

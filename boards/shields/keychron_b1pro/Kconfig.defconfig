@@ -1,0 +1,6 @@
+if SHIELD_KEYCHRON_B1PRO
+
+config ZMK_KEYBOARD_NAME
+    default "keychron_b1pro"
+
+endif # SHIELD_KEYCHRON_B1PRO
